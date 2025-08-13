@@ -8,3 +8,6 @@ export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Content
 alias cubemx='/Applications/STMicroelectronics/STM32CubeMX.app/Contents/MacOS/STM32CubeMX'
 
 export PATH="/opt/homebrew/opt/llvm@18/bin:$PATH"
+
+# sheldon loading
+eval "$(sheldon source)"
