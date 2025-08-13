@@ -1,0 +1,10 @@
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+. "$HOME/.local/bin/env"
+
+export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgrammer/STM32CubeProgrammer.app/Contents/MacOs/bin
+export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Contents/Resources
+
+alias cubemx='/Applications/STMicroelectronics/STM32CubeMX.app/Contents/MacOS/STM32CubeMX'
+
+export PATH="/opt/homebrew/opt/llvm@18/bin:$PATH"
